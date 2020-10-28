@@ -10,7 +10,7 @@ ICINGA2_TYPE=${1}
 # FROM ubuntu:19.04
 # FROM debian:9-slim
 
-BUILD_BASE=${BUILD_BASE:-'ubuntu:19.04'}
+BUILD_BASE=${BUILD_BASE:-'ubuntu:20.04'}
 
 echo ""
 echo " BUILD_DATE          : ${BUILD_DATE}"

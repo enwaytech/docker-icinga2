@@ -42,7 +42,7 @@ RUN \
       bundler \
       ssmtp && \
   echo 'gem: --no-document' >> /etc/gemrc && \
-  gem install --quiet --no-rdoc --no-ri \
+  gem install --quiet --no-document \
     io-console bundler && \
   bash /tmp/ruby-icinga-cert-service/bin/installer.sh && \
   apt-get remove \

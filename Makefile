@@ -1,6 +1,6 @@
 export GIT_SHA1             := $(shell git rev-parse --short HEAD)
 export DOCKER_IMAGE_NAME    := icinga2
-export DOCKER_NAME_SPACE    := ${USER}
+export DOCKER_NAME_SPACE    := enwaytech
 export DOCKER_VERSION       ?= latest
 export BUILD_DATE           := $(shell date +%Y-%m-%d)
 export BUILD_VERSION        := $(shell date +%y%m)
